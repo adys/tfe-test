@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_security_group" "prod" {
   name        = "prod"
-  description = "Allow all inbound traffic"
+  description = "Allow all inbound traffic - CHANGE"
 
   ingress {
     from_port   = 0
