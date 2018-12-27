@@ -3,8 +3,8 @@ provider "aws" {
   version = "~> 1.22.0"
 }
 
-resource "aws_security_group" "allow_all" {
-  name        = "allow_all"
+resource "aws_security_group" "prod" {
+  name        = "prod"
   description = "Allow all inbound traffic"
 
   ingress {
