@@ -1,7 +1,7 @@
 # TEST
 resource "aws_security_group" "module-common" {
   name        = "module-common"
-  description = "Allow all inbound traffic - CHANGE"
+  description = "Allow all inbound traffic - CHANGE 2"
 
   ingress {
     from_port   = 0
