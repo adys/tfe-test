@@ -18,3 +18,7 @@ resource "aws_security_group" "prod" {
     Name = "allow_all"
   }
 }
+
+module "pmt-db" {
+  source = "../../module/module-common"
+}
