@@ -19,6 +19,6 @@ resource "aws_security_group" "prod" {
   }
 }
 
-module "pmt-db" {
-  source = "../../module/module-common"
+module "module-common-test" {
+  source = "../../modules/module-common"
 }
